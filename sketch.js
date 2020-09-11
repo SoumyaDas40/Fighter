@@ -217,7 +217,7 @@ state = 3;
 }
 if (player.isTouching(enemy3)){
 player.visible = false
-state = 23;
+state = 3;
 }
 if (player.isTouching(enemy4)){
 player.visible = false
