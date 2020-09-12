@@ -39,8 +39,7 @@ function preload(){
 }
 
 function setup() {
-//canvas
-createCanvas(1000, 1000);
+var canvas = createCanvas(displayWidth-20,displayHeight-20);
 //engine
 engine = Engine.create();
 world = engine.world;
@@ -391,7 +390,7 @@ nameInput.hide();
 //state 2
 if (state === 2){
 //background
-background(img);
+background("brown");
 //controll
 player.x = mouseX;
 bullet.x = mouseX;
